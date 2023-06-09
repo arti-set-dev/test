@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<title>uiKit page</title>
+	<script defer src="js/script.js"></script>
+	<script defer src="js/uikit.min.js"></script>
+</head>
+
+<body class="body">
+	<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right">
+		<div uk-navbar class="uk-flex-between">
+			<a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a>
+			<div class="uk-navbar-center">
+				<ul class="uk-navbar-nav">
+					<li>
+						<a href="#">menu1</a>
+						<div class="uk-navbar-dropdown">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li class="uk-active"><a href="#" class="uk-text-danger">New</a></li>
+								<li><a href="#">Item</a></li>
+								<li><a href="#">Item</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">menu2</a>
+						<div class="uk-navbar-dropdown">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li class="uk-active"><a href="#" class="uk-text-danger">New</a></li>
+								<li><a href="#">Item</a></li>
+								<li><a href="#">Item</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">menu3</a>
+						<div class="uk-navbar-dropdown">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li class="uk-active"><a href="#" class="uk-text-danger">New</a></li>
+								<li><a href="#">Item</a></li>
+								<li><a href="#">Item</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="user">
+				<div class="uk-inline">
+					<img loading="lazy" data-src="img/image.jpg" width="80" height="80" alt="user" uk-img>
+					<span class="uk-text-left">Иванова</span>
+				</div>
+				<div uk-drop>
+					<ul class="uk-list uk-card uk-card-body uk-card-default">
+						<li>
+							<a href="#" class="uk-text-secondary">Пункт 1</a>
+						</li>
+						<li>
+							<a href="#" class="uk-text-secondary">Пункт 2</a>
+						</li>
+						<li>
+							<a href="#" class="uk-text-secondary">Пункт 3</a>
+						</li>
+						<li>
+							<a href="#" class="uk-text-emphasis">Выход</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="uk-container">
+		<h1 class="uk-h1">Заголовок</h1>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quis soluta molestias repellendus harum?
+			Eligendi labore necessitatibus mollitia ipsum blanditiis accusantium doloremque nobis expedita cumque! Accusamus
+			necessitatibus blanditiis eveniet modi?</p>
+		<form action="/" method="post">
+			<div class="uk-flex uk-flex-column uk-flex-top uk-margin-bottom">
+				<label class="uk-form-label uk-flex uk-flex-middle uk-margin-bottom">
+					<span class="uk-margin-right">Поле 1</span>
+					<input type="text" class="uk-input uk-width-auto" aria-label="Поле 1">
+				</label>
+				<label class="uk-form-label uk-flex uk-flex-middle uk-margin-bottom">
+					<span class="uk-margin-right">Поле 2</span>
+					<input type="text" class="uk-input uk-width-auto" aria-label="Поле 2">
+				</label>
+				<label class="uk-form-label uk-flex uk-flex-middle uk-margin-bottom">
+					<span class="uk-margin-right">Поле 3</span>
+					<input type="text" class="uk-input uk-width-auto" aria-label="Поле 3">
+				</label>
+				<label class="uk-form-label uk-flex uk-flex-middle">
+					<span class="uk-margin-right">Чекбокс</span>
+					<input type="checkbox" class="uk-checkbox uk-margin-remove-top" aria-label="Чекбокс">
+				</label>
+			</div>
+			<div class="uk-width-medium uk-flex uk-flex-wrap">
+				<button type="button" class="uk-button uk-button-primary">Далее</button>
+				<button type="button" class="uk-button uk-button-primary uk-margin-left">Далее</button>
+				<button type="button" class="uk-button uk-button-primary uk-margin-top">Далее</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
